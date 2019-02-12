@@ -4,6 +4,27 @@ ServletとValidationを完全分離させ、可読性を向上させるための
 ## クラス関係
 AbstractServlet has AbstractValidation.
 ## 実装例
+バリデーションクラス「MyLoginValidation」
+~~~
+package com.expcube.test.validation;
+
+
+import com.expcube.main.validation.AbstractValidation;
+
+import javax.servlet.http.HttpServletRequest;
+
+public class MyLoginValidation extends AbstractValidation {
+
+    @Override
+    public boolean validate(HttpServletRequest req) {
+        // 具体的な処理
+        return true;
+    }
+
+}
+~~~
+---
+サーブレットクラス「MyLoginServlet」
 ~~~
 package com.expcube.test.servlet;
 
