@@ -57,8 +57,8 @@ public abstract class AbstractServlet<V extends AbstractValidation> extends Http
     }
 
     @Override
-    protected final void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        doGet(req, resp);
+    protected final void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+        doGet(req, res);
     }
 
 }
