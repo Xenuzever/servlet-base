@@ -23,7 +23,7 @@ public class MyLoginValidation extends AbstractValidation {
 
 }
 ~~~
----
+
 サーブレットクラス「MyLoginServlet」
 ~~~
 package com.expcube.test.servlet;
