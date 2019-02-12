@@ -54,7 +54,6 @@ public abstract class AbstractServlet<V extends AbstractValidation> extends Http
     protected final void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
         if (validation.validate(req)) succeeded(req, res);
         else failed(req, res);
-        validation.clearMessage();
     }
 
     @Override
