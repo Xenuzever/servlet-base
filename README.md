@@ -7,9 +7,6 @@ AbstractServlet has AbstractValidation.
 ## Example
 MyLoginValidation
 ~~~
-package com.expcube.test.validation;
-
-
 import com.expcube.main.validation.AbstractValidation;
 
 import javax.servlet.http.HttpServletRequest;
@@ -27,8 +24,6 @@ public class MyLoginValidation extends AbstractValidation {
 
 MyLoginServlet
 ~~~
-package com.expcube.test.servlet;
-
 import com.expcube.main.servlet.AbstractServlet;
 import com.expcube.test.validation.MyLoginValidation;
 
