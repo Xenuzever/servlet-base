@@ -1,6 +1,6 @@
 # servlet-base
 ## Overview
-In order to improve readability, we provide a mechanism to implement servlet and validation separately.
+In order to improve readability, it provide a mechanism to implement servlet and validation separately.
 ## Classes reration
 AbstractServlet has AbstractValidation.
 ## Example
