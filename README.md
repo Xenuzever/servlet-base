@@ -4,6 +4,8 @@ This software is released under the MIT License, see LICENSE.
 In order to improve readability, it provide a mechanism to implement servlet and validation separately.
 ## Classes reration
 AbstractServlet has AbstractValidation.
+## Environment
+JDK1.8.0
 ## Example
 MyLoginServlet
 ~~~
