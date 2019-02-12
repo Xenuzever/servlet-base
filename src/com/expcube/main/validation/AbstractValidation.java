@@ -1,4 +1,4 @@
-package com.expcube.validation;
+package com.expcube.main.validation;
 
 import javax.servlet.http.HttpServletRequest;
 

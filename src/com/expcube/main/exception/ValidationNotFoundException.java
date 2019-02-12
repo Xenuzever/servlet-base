@@ -1,4 +1,4 @@
-package com.expcube.exception;
+package com.expcube.main.exception;
 
 public class ValidationNotFoundException extends RuntimeException {
 

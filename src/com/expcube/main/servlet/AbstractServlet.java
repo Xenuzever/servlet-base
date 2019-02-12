@@ -1,7 +1,7 @@
-package com.expcube.servlet;
+package com.expcube.main.servlet;
 
-import com.expcube.exception.ValidationNotFoundException;
-import com.expcube.validation.AbstractValidation;
+import com.expcube.main.exception.ValidationNotFoundException;
+import com.expcube.main.validation.AbstractValidation;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

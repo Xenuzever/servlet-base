@@ -1,7 +1,7 @@
-package example.validation;
+package com.expcube.test.validation;
 
 
-import com.expcube.validation.AbstractValidation;
+import com.expcube.main.validation.AbstractValidation;
 
 import javax.servlet.http.HttpServletRequest;
 

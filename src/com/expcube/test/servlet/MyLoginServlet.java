@@ -1,7 +1,7 @@
-package example.servlet;
+package com.expcube.test.servlet;
 
-import com.expcube.servlet.AbstractServlet;
-import example.validation.MyLoginValidation;
+import com.expcube.main.servlet.AbstractServlet;
+import com.expcube.test.validation.MyLoginValidation;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
