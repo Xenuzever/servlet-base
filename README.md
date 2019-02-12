@@ -1,9 +1,9 @@
 # servlet-base
-## 概要
-ServletとValidationを完全分離させ、可読性を向上させるためのライブラリ。
-## クラス関係
+## Overview
+
+## Classes reration
 AbstractServlet has AbstractValidation.
-## 実装例
+## Example
 バリデーションクラス「MyLoginValidation」
 ~~~
 package com.expcube.test.validation;
