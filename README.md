@@ -5,23 +5,6 @@ In order to improve readability, it provide a mechanism to implement servlet and
 ## Classes reration
 AbstractServlet has AbstractValidation.
 ## Example
-MyLoginValidation
-~~~
-import com.expcube.main.validation.AbstractValidation;
-
-import javax.servlet.http.HttpServletRequest;
-
-public class MyLoginValidation extends AbstractValidation {
-
-    @Override
-    public boolean validate(HttpServletRequest req) {
-        // 具体的な処理
-        return true;
-    }
-
-}
-~~~
-
 MyLoginServlet
 ~~~
 import com.expcube.main.servlet.AbstractServlet;
@@ -45,6 +28,23 @@ public class MyLoginServlet extends AbstractServlet<MyLoginValidation> {
     @Override
     protected Class<MyLoginValidation> getValidationClass() {
         return MyLoginValidation.class;
+    }
+
+}
+~~~
+
+MyLoginValidation
+~~~
+import com.expcube.main.validation.AbstractValidation;
+
+import javax.servlet.http.HttpServletRequest;
+
+public class MyLoginValidation extends AbstractValidation {
+
+    @Override
+    public boolean validate(HttpServletRequest req) {
+        // 具体的な処理
+        return true;
     }
 
 }
