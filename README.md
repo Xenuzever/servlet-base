@@ -1,10 +1,10 @@
 # servlet-base
 ## Overview
-
+In order to improve readability, we provide a mechanism to implement servlet and validation separately.
 ## Classes reration
 AbstractServlet has AbstractValidation.
 ## Example
-バリデーションクラス「MyLoginValidation」
+MyLoginValidation
 ~~~
 package com.expcube.test.validation;
 
@@ -24,7 +24,7 @@ public class MyLoginValidation extends AbstractValidation {
 }
 ~~~
 
-サーブレットクラス「MyLoginServlet」
+MyLoginServlet
 ~~~
 package com.expcube.test.servlet;
 
