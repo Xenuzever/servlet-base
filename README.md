@@ -1,5 +1,5 @@
 # servlet-base
-This software is released under the MIT License, see LICENSE.
+This library is released under the MIT License, see LICENSE.
 ## Overview
 In order to improve readability, it provide a mechanism to implement servlet and validation separately.
 ## Classes reration
